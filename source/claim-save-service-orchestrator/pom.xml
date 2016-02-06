@@ -1,0 +1,261 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>claim-save-service</groupId>
+		<artifactId>claim-save-service-source</artifactId>
+		<version>1.0.0.0</version>
+		<relativePath>..</relativePath>
+	</parent>
+
+	<groupId>claim-save-service</groupId>
+	<artifactId>claim-save-service-orchestrator</artifactId>
+	<name>Claim Save Service Orchestrator</name>
+	<description>Claim Save Service Orchestrator Module</description>
+	<version>1.0.0.0</version>
+	<packaging>ejb</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>${jbossall-client.groupId}</groupId>
+			<artifactId>${jbossall-client.artifactId}</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.ejb</groupId>
+			<artifactId>ejb-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>jmock</groupId>
+			<artifactId>jmock-cglib</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jmock</groupId>
+			<artifactId>jmock</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-module-junit4</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-api-mockito</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>integration-test-helper</groupId>
+			<artifactId>integration-test-helper-client</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.objenesis</groupId>
+			<artifactId>objenesis</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>  
+			<groupId>com.oracle</groupId>  
+			<artifactId>ojdbc6</artifactId>  
+			<scope>provided</scope>  
+		</dependency>
+
+		<dependency>
+			<groupId>mitchell-common</groupId>
+			<artifactId>mitchell-common</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>system-configuration</groupId>
+			<artifactId>system-configuration</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>vehicle-information</groupId>
+			<artifactId>vehicle-information-client</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>vehicle-information</groupId>
+			<artifactId>vehicle-information-schema-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>claim-service</groupId>
+			<artifactId>claim-service-client</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>claim-service</groupId>
+			<artifactId>claim-service-schema-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>user-info</groupId>
+			<artifactId>user-info-client</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>user-info</groupId>
+			<artifactId>user-info-schema-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>questionnaire-evaluation</groupId>
+			<artifactId>questionnaire-evaluation-client</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>questionnaire-evaluation</groupId>
+			<artifactId>questionnaire-evaluation-schema-axmlb</artifactId>
+		</dependency>
+
+		<dependency>  
+			<groupId>common-xml-schema</groupId>
+			<artifactId>cieca-bms-4.9.1-bmsclassic-ext-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>app-logging</groupId>
+			<artifactId>app-logging-client</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>app-logging</groupId>
+			<artifactId>app-logging-schema-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>message-bus</groupId>
+			<artifactId>message-bus-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>message-bus</groupId>
+			<artifactId>message-bus-schema-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>error-logging</groupId>
+			<artifactId>error-logging-client</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>error-logging</groupId>
+			<artifactId>error-logging-schema-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>claim-save-service-sequence-tracker</artifactId>
+			<version>1.0.0.0</version>
+		</dependency>
+		<dependency>
+				<groupId>claim-estimate-move-service</groupId>
+				<artifactId>claim-estimate-move-service-client</artifactId>
+		</dependency>
+
+		<dependency>
+				<groupId>claim-estimate-move-service</groupId>
+				<artifactId>claim-estimate-move-service-schema-axmlb</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>claim-save-common</artifactId>
+			<version>1.0.0.0</version>
+		</dependency>
+		
+
+	</dependencies>
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-ejb-plugin</artifactId>
+				<configuration>
+					<generateClient>false</generateClient>
+					<ejbVersion>3.0</ejbVersion>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<testSourceDirectory>${project.basedir}/src/test/java/</testSourceDirectory>
+					<testClassesDirectory>${project.build.directory}/test-classes/</testClassesDirectory>
+					<skipTests>false</skipTests>
+					<systemPropertyVariables>
+						<SettingsFilePath>${project.basedir}/src/test/settings</SettingsFilePath>
+					</systemPropertyVariables>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>test</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>			
+		</plugins>
+
+		<testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
+		<resources>
+			<resource>
+				<directory>${project.basedir}/src/test/resources</directory>
+			</resource>
+		</resources>
+		<testResources>
+			<testResource>
+				<directory>${project.basedir}/src/test/resources</directory>
+			</testResource>
+		</testResources>
+	</build>
+
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>2.12</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.8.1</version>
+				<configuration>
+					<show>public</show>
+				</configuration>
+			</plugin>
+		</plugins>
+	</reporting>
+</project>

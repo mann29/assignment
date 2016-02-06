@@ -1,0 +1,98 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>claim-save-service</groupId>
+		<artifactId>claim-save-service-source</artifactId>
+		<version>1.0.0.0</version>
+	</parent>
+
+	<artifactId>intitest-project-pom</artifactId>
+	<name>Claim Save Integration test Project</name>
+	<description>Claim Save Integration test</description>
+	<version>1.0.0.0</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>${jbossall-client.groupId}</groupId>
+			<artifactId>${jbossall-client.artifactId}</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.ejb</groupId>
+			<artifactId>ejb-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>mitchell-common</groupId>
+			<artifactId>mitchell-common</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>claim-service</groupId>
+			<artifactId>claim-service-client</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>common-xml-schema</groupId>
+			<artifactId>cieca-bms-4.8.1-bmsclassic-ext-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>message-bus</groupId>
+			<artifactId>message-bus-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>message-bus</groupId>
+			<artifactId>message-bus-schema-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>user-info</groupId>
+			<artifactId>user-info-client</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>user-info</groupId>
+			<artifactId>user-info-schema-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>system-configuration</groupId>
+			<artifactId>system-configuration</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>vehicle-information</groupId>
+			<artifactId>vehicle-information-schema-axmlb</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>claim-save-common</artifactId>
+			<version>1.0.0.0</version>
+		</dependency>
+
+		</dependencies>
+
+</project>

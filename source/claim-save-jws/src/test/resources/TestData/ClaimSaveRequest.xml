@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClaimSaveRq xmlns="http://www.cieca.com/BMS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cieca.com/BMS BMSRoot.xsd">
+	<RqUID>26543365-2496-1334-1392-397124567501</RqUID>
+	<DocumentInfo>
+		<BMSVer>4.0.1.x</BMSVer>
+		<DocumentType>CSR</DocumentType>
+		<CreateDateTime>2012-02-23T17:19:25.667-07:00</CreateDateTime>
+		<TransmitDateTime>2010-09-23T14:16:25.667-07:00</TransmitDateTime>
+	</DocumentInfo>
+	<ApplicationInfo>
+		<ApplicationType>Conversion</ApplicationType>
+		<ApplicationName>OPADBToCCDB</ApplicationName>
+		<ApplicationVer>000A</ApplicationVer>
+	</ApplicationInfo>
+	<ClaimKeyInfo>
+		<CompanyID>IF</CompanyID>
+		<ClaimNum>11-2112350-01</ClaimNum>
+		<IDInfo>
+			<IDQualifierCode>UserID</IDQualifierCode>
+			<IDNum>TESTUSER</IDNum>
+		</IDInfo>
+	</ClaimKeyInfo>
+	
+	<AddsChgs>
+		<AdminInfo>
+			<PolicyHolder>
+				<Party>
+					<PersonInfo>
+						<PersonName>
+							<FirstName>MINNIE</FirstName>
+							<LastName>COOPER</LastName>
+						</PersonName>
+						<Communications>
+							<CommQualifier>AL</CommQualifier>
+							<Address>
+								<Address1>605 RED ROCK DR</Address1>
+								<City>SAN DIEGO</City>
+								<StateProvince>CA</StateProvince>
+								<PostalCode>92131</PostalCode>
+							</Address>
+						</Communications>
+						<Communications>
+							<CommQualifier>HP</CommQualifier>
+							<CommPhone>+1-858-5553011</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WP</CommQualifier>
+							<CommPhone>+1-858-5557836</CommPhone>
+						</Communications>
+					</PersonInfo>
+				</Party>
+			</PolicyHolder>			
+		</AdminInfo>
+		<ClaimInfo>
+			<ClaimNum>11-2112350-01</ClaimNum>
+			<ClaimSensitivityInd>Y</ClaimSensitivityInd>
+			<ClaimStatus>Open</ClaimStatus>
+			<PolicyInfo>
+				<PolicyNum>35555554-0</PolicyNum>
+				<CoverageInfo>
+					<Coverage>
+						<CoverageCategory>C</CoverageCategory>
+						<DeductibleInfo>
+							<DeductibleStatus>D2</DeductibleStatus>
+							<DeductibleAmt>250.00</DeductibleAmt>
+						</DeductibleInfo>
+					</Coverage>
+				</CoverageInfo>
+			</PolicyInfo>
+			<LossInfo>
+				<Facts>
+					<LossDateTime>2008-04-28T12:00:00-00:00</LossDateTime>
+					<ReportedDateTime>2010-04-28T12:00:00-00:00</ReportedDateTime>
+					<DamageMemo>We need this for the equivalent of Point of Impact for Trading Partners that don't deal with POIs</DamageMemo>
+					<LossMemo>That's a fact. You could look it up. Even if it was more lengthy than eighty characters.</LossMemo>
+				</Facts>
+				<TotalLossInd>U</TotalLossInd>
+			</LossInfo>
+			<AdditionalIDInfo>
+				<IDQualifierCode>EvaluationID</IDQualifierCode>
+				<IDNum>rp702</IDNum>
+			</AdditionalIDInfo>
+			<ClaimMemo>Contains the additional notes regarding the claim, this may also be used for information regarding a reassignment or assignment change.</ClaimMemo>
+		</ClaimInfo>		
+	</AddsChgs>
+</ClaimSaveRq>

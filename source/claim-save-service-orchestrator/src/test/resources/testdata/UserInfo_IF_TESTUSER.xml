@@ -1,0 +1,24 @@
+<typ:UserInfo xmlns:typ="http://www.mitchell.com/common/types">
+	<typ:OrgID>341479</typ:OrgID>
+	<typ:OrgCode>IF</typ:OrgCode>
+	<typ:UserID>TESTUSER</typ:UserID>
+	<typ:FirstName>TEST FIRST NAME</typ:FirstName>
+	<typ:LastName>TEST LAST NAME</typ:LastName>
+	<typ:Email>testuser@email.com</typ:Email>
+	<typ:UserHier>
+		<typ:HierNode ID="72586" Code="IF" Name="PROGRESSIVE INSURANCE"
+			Level="COMPANY">
+			<typ:HierNode ID="75875" Code="99" Name="DEFAULT" Level="REGION">
+				<typ:HierNode ID="75876" Code="99" Name="DEFAULT"
+					Level="DIVISION">
+					<typ:HierNode ID="204668" Code="99" Name="99" Level="OFFICE">
+						<typ:HierNode ID="341479" Code="TESTUSER"
+							Name="TEST FIRST NAME TEST LAST NAME" Level="USER" />
+					</typ:HierNode>
+				</typ:HierNode>
+			</typ:HierNode>
+		</typ:HierNode>
+	</typ:UserHier>
+	<typ:AppCode>NETACT</typ:AppCode>
+	<typ:StaffType>ADMINISTRATOR</typ:StaffType>
+</typ:UserInfo>

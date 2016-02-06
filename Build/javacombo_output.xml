@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This file contains the list of all binary dependencies that need to be copied before compiling projects/solution.
+    Currently, the following keyword for build locations are supported:
+    $(SourceDir), $(BuildDir), $(DropLocation)
+-->
+<CopyFilesWildcard>
+  <CopyFiles>
+    <SourcePath>$(SourceDir)\source\claim-save-service-ear\target</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\Img\java</DestinationPath>
+    <FilePatterns>*.ear</FilePatterns>
+  </CopyFiles>
+  <CopyFiles>
+    <SourcePath>$(SourceDir)\source\claim-save-jws-ear\target</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\Img\java</DestinationPath>
+    <FilePatterns>*.ear</FilePatterns>
+  </CopyFiles>
+   <CopyFiles>
+    <SourcePath>$(SourceDir)\source\claim-save-handler-ear\target</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\Img\java</DestinationPath>
+    <FilePatterns>*.ear</FilePatterns>
+  </CopyFiles>
+    
+  <!--
+  <CopyFiles>
+    <SourcePath>$(SourceDir)\config</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\Img\config</DestinationPath>
+    <FilePatterns>*.*</FilePatterns>
+  </CopyFiles> 
+  -->
+  <!-- ========= This is the standard Maven copy block for config , sql and other directories ========= -->
+  <CopyFiles>
+    <SourcePath>$(SourceDir)\sql</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\Img\sql</DestinationPath>
+    <FilePatterns>*.*</FilePatterns>
+  </CopyFiles>
+  <CopyFiles>
+    <SourcePath>$(SourceDir)\config\settings</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\Img\config\settings</DestinationPath>
+    <FilePatterns>*.*</FilePatterns>
+  </CopyFiles>
+  <CopyFiles>
+    <SourcePath>$(SourceDir)\documents\deploy</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\documents\deploy</DestinationPath>
+    <FilePatterns>*.*</FilePatterns>
+  </CopyFiles>
+  <CopyFiles>
+    <SourcePath>$(SourceDir)\documents\build</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\documents\build</DestinationPath>
+    <FilePatterns>*.*</FilePatterns>
+  </CopyFiles>
+  <CopyFiles>
+    <SourcePath>$(SourceDir)\documents\release-notes</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\documents\release-notes</DestinationPath>
+    <FilePatterns>*.*</FilePatterns>
+  </CopyFiles>
+  <CopyFiles>
+    <SourcePath>$(SourceDir)\config\jboss-configs</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\Img\config\jboss-configs</DestinationPath>
+    <FilePatterns>*.*</FilePatterns>
+  </CopyFiles>
+  <CopyFiles>
+    <SourcePath>$(SourceDir)\config\templates</SourcePath>
+    <DestinationPath>$(DropLocation)\SCM_claim-save-service\Img\config\templates</DestinationPath>
+    <FilePatterns>*.*</FilePatterns>
+  </CopyFiles>
+  <!-- =================================================================================================-->
+</CopyFilesWildcard>

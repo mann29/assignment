@@ -1,0 +1,16 @@
+<configuration xmlns="urn:hornetq"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="urn:hornetq /schema/hornetq-configuration.xsd">
+	<clustered>true</clustered>
+	<address-settings>
+		<address-setting match="jms.queue.CLAIM_SAVE_HANDLER.INBOUND.QUEUE">
+			<dead-letter-address>jms.queue.CLAIM_SAVE_HANDLER.INBOUND.QUEUE_DEADLETTER</dead-letter-address>
+			<expiry-address>jms.queue.CLAIM_SAVE_HANDLER.INBOUND.QUEUE_DEADLETTER</expiry-address>
+			<redelivery-delay>2000</redelivery-delay> <!-- 2000 is 2 seconds -->
+			<max-delivery-attempts>50</max-delivery-attempts>
+		</address-setting>
+
+		<address-setting match="jms.queue.CLAIM_SAVE_HANDLER.INBOUND.QUEUE_DEADLETTER">
+		</address-setting>
+	</address-settings>
+</configuration>

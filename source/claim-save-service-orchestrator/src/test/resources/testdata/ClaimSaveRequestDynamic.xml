@@ -1,0 +1,681 @@
+<ClaimSaveRq xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.cieca.com/BMS" xsi:schemaLocation="http://www.cieca.com/BMS CICA/v4.8.1_strictBMSCodeExtSchema_1stMay/BMSRoot_CodeExt_2013-10-17.xsd">
+	<RqUID>1ade9116-51a2-4afe-9ca4-3fd3fcf80b85</RqUID>
+	<DocumentInfo>
+		<BMSVer>4.8.1</BMSVer>
+		<DocumentType>CSR</DocumentType>
+		<CreateDateTime>2014-10-27T07:46:33.510+00:00</CreateDateTime>
+		<TransmitDateTime>2014-01-29T19:08:38.876+00:00</TransmitDateTime>
+		<ReferenceInfo>
+			<OtherReferenceInfo>
+				<OtherReferenceName>ShopEstimateAllowed</OtherReferenceName>
+				<OtherRefNum>True</OtherRefNum>
+			</OtherReferenceInfo>
+			<OtherReferenceInfo>
+				<OtherReferenceName>RelatedClaimNum</OtherReferenceName>
+				<OtherRefNum>gtILDA1</OtherRefNum>
+			</OtherReferenceInfo>
+		</ReferenceInfo>
+		
+	</DocumentInfo>
+	<ApplicationInfo>
+		<ApplicationType>Conversion</ApplicationType>
+		<ApplicationName>OPADBToCCDB</ApplicationName>
+		<ApplicationVer>000A</ApplicationVer>
+	</ApplicationInfo>
+	<ClaimKeyInfo>
+		<CompanyID>L4</CompanyID>
+		<ClaimNum>L43490198-01</ClaimNum>
+		<IDInfo>
+			<IDQualifierCode>UserID</IDQualifierCode>
+			<IDNum>LDAl4sa</IDNum>
+		</IDInfo>
+	</ClaimKeyInfo>
+	<Deletions>
+  <ElementName>Facts</ElementName>
+	<ElementName>Claimant</ElementName>	
+	<ElementName>AdditionalIDInfo</ElementName>
+	</Deletions>
+	<AddsChgs>
+		<AdminInfo>
+		<!-- 	<PolicyHolder>
+				<Party>
+					<PersonInfo>
+						<PersonName>
+							<FirstName>PH First Anuiureiujrieer kjerkjekrj</FirstName>
+							<LastName>Policy Holder Last Name ADD</LastName>
+                           <SecondLastName>uyasewhfdrjsdhfjhbs%^^&amp;</SecondLastName>
+						</PersonName>
+						<Communications>
+							<CommQualifier>AL</CommQualifier>
+							<Address>
+								<Address1>2931 Market Street Test_eshan</Address1>
+								<Address2>Unit 1LUpdate</Address2>
+								<City>SAN DIEGOUpdate</City>
+								<StateProvince>CA</StateProvince>
+								<PostalCode>92131</PostalCode>
+								<CountryCode>US</CountryCode>
+							</Address>
+						</Communications>
+						<Communications>
+							<CommQualifier>HP</CommQualifier>
+							<CommPhone>+1-990-8888661</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>TE</CommQualifier>
+							<CommPhone>+1-990-8888662</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>CP</CommQualifier>
+							<CommPhone>+1-990-8888663</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>PC</CommQualifier>
+							<CommPhone>+1-990-8888664</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WP</CommQualifier>
+							<CommPhone>+1-990-8888665</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WC</CommQualifier>
+							<CommPhone>+1-990-8888666</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>NP</CommQualifier>
+							<CommPhone>+1-990-8888667</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>FX</CommQualifier>
+							<CommPhone>+1-990-8888668</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>HF</CommQualifier>
+							<CommPhone>+1-990-8888669</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WF</CommQualifier>
+							<CommPhone>+1-990-8888670</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>BN</CommQualifier>
+							<CommPhone>+1-990-8888671</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>VM</CommQualifier>
+							<CommPhone>+1-990-8888672</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>EM</CommQualifier>
+							<CommEmail>test_test1@test.com</CommEmail>
+						</Communications>
+					</PersonInfo>
+				</Party>
+			</PolicyHolder>  -->
+			<Owner>
+				<Party>
+					<PersonInfo>
+						<PersonName>
+							<FirstName>@</FirstName>
+							<LastName>@</LastName>
+							<SecondLastName>@</SecondLastName>
+						</PersonName>
+						<Communications>
+							<CommQualifier>AL</CommQualifier>
+							<Address>
+								<Address1>1740 Euclid 111</Address1>
+								<Address2>Apt 105222</Address2>
+								<City>WHEATON333</City>
+								<StateProvince>IL</StateProvince>
+								<PostalCode>60187-7710</PostalCode>
+								<CountryCode>US</CountryCode>
+							</Address>
+						</Communications>
+						<Communications>
+							<CommQualifier>HP</CommQualifier>
+							<CommPhone>+1-990-8888661</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>TE</CommQualifier>
+							<CommPhone>+1-990-8888662</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>CP</CommQualifier>
+							<CommPhone>+1-990-8888663</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>PC</CommQualifier>
+							<CommPhone>+1-990-8888664</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WP</CommQualifier>
+							<CommPhone>+1-990-8888665</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WC</CommQualifier>
+							<CommPhone>+1-990-8888666</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>NP</CommQualifier>
+							<CommPhone>+1-990-8888667</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>FX</CommQualifier>
+							<CommPhone>+1-990-8888668</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>HF</CommQualifier>
+							<CommPhone>+1-990-8888669</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WF</CommQualifier>
+							<CommPhone>+1-990-8888670</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>BN</CommQualifier>
+							<CommPhone>+1-990-8888671</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>VM</CommQualifier>
+							<CommPhone>+1-990-8888672</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>EM</CommQualifier>
+							<CommEmail>test_test1@test.com</CommEmail>
+						</Communications>
+					</PersonInfo>
+				</Party>
+			</Owner>
+			<!-- <Claimant>
+				<Party>
+					<PersonInfo>
+						<PersonName>
+							<FirstName>Claimant LN ADD1 Claimant LN AD1111</FirstName>
+							<LastName>Claimant LN ADD1 Claimant111</LastName>
+							<SecondLastName>AD11111dfdffddffdfdf3</SecondLastName>
+						</PersonName>
+						<Communications>
+							<CommQualifier>AL</CommQualifier>
+							<Address>
+								<Address1>2437 E Plaza Blvd</Address1>
+								<Address2>4th Street</Address2>
+								<City>National City</City>
+								<StateProvince>CA</StateProvince>
+								<PostalCode>91950</PostalCode>
+								<CountryCode>US</CountryCode>
+							</Address>
+						</Communications>
+						<Communications>
+							<CommQualifier>HP</CommQualifier>
+							<CommPhone>+1-990-8888661</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>TE</CommQualifier>
+							<CommPhone>+1-990-8888662</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>CP</CommQualifier>
+							<CommPhone>+1-990-8888663</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>PC</CommQualifier>
+							<CommPhone>+1-990-8888664</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WP</CommQualifier>
+							<CommPhone>+1-990-8888665</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WC</CommQualifier>
+							<CommPhone>+1-990-8888666</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>NP</CommQualifier>
+							<CommPhone>+1-990-8888667</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>FX</CommQualifier>
+							<CommPhone>+1-990-8888668</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>HF</CommQualifier>
+							<CommPhone>+1-990-8888669</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WF</CommQualifier>
+							<CommPhone>+1-990-8888670</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>BN</CommQualifier>
+							<CommPhone>+1-990-8888671</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>VM</CommQualifier>
+							<CommPhone>+1-990-8888672</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>EM</CommQualifier>
+							<CommEmail>surely.lyin@hotmail.com</CommEmail>
+						</Communications>
+					</PersonInfo>
+				</Party>
+			</Claimant> -->
+
+			<InspectionSite>
+				<Party>
+					<OrgInfo>
+						<CompanyName>SHOP LOT</CompanyName>
+						<Communications>
+							<CommQualifier>AL</CommQualifier>
+							<Address>
+								<Address1>3501 N MILWAUKEE</Address1>
+								<Address2>Suite 365</Address2>
+								<City>CHICAGO</City>
+								<StateProvince>IL</StateProvince>
+								<PostalCode>87654</PostalCode>
+								<CountryCode>US</CountryCode>
+							</Address>
+						</Communications>
+					</OrgInfo>
+					<ContactInfo>
+						<Communications>
+							<CommQualifier>HP</CommQualifier>
+							<CommPhone>+1-990-8888661</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>TE</CommQualifier>
+							<CommPhone>+1-990-8888662</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>CP</CommQualifier>
+							<CommPhone>+1-990-8888663</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>PC</CommQualifier>
+							<CommPhone>+1-990-8888664</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WP</CommQualifier>
+							<CommPhone>+1-990-8888665</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WC</CommQualifier>
+							<CommPhone>+1-990-8888666</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>NP</CommQualifier>
+							<CommPhone>+1-990-8888667</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>FX</CommQualifier>
+							<CommPhone>+1-990-8888668</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>HF</CommQualifier>
+							<CommPhone>+1-990-8888669</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WF</CommQualifier>
+							<CommPhone>+1-990-8888670</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>BN</CommQualifier>
+							<CommPhone>+1-990-8888671</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>VM</CommQualifier>
+							<CommPhone>+1-990-8888672</CommPhone>
+						</Communications>
+						<ContactName>
+							<FirstName>Ins FN</FirstName>
+							<LastName>Ins LN</LastName>
+							<SecondLastName> Last name of @$%$^%$^%^%^</SecondLastName>
+						</ContactName>
+					</ContactInfo>
+				</Party>
+			</InspectionSite>
+			<Adjuster>
+				<Party>
+					<PersonInfo>
+						<PersonName>
+							<FirstName>Monty</FirstName>
+							<LastName>Carlo</LastName>
+						</PersonName>
+						<IDInfo>
+							<IDQualifierCode>UserID</IDQualifierCode>
+							<IDNum>PEADJ001</IDNum>
+						</IDInfo>
+						<Communications>
+							<CommQualifier>AL</CommQualifier>
+							<Address>
+								<Address1>6911 Linda Vista Rd</Address1>
+								<City>DOWNERS GROVE</City>
+								<StateProvince>CA</StateProvince>
+								<PostalCode>92111</PostalCode>
+							</Address>
+						</Communications>
+						<Communications>
+							<CommQualifier>HP</CommQualifier>
+							<CommPhone>+1-990-8888661</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>TE</CommQualifier>
+							<CommPhone>+1-990-8888662</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>CP</CommQualifier>
+							<CommPhone>+1-990-8888663</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>PC</CommQualifier>
+							<CommPhone>+1-990-8888664</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WP</CommQualifier>
+							<CommPhone>+1-990-8888665</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WC</CommQualifier>
+							<CommPhone>+1-990-8888666</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>NP</CommQualifier>
+							<CommPhone>+1-990-8888667</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>FX</CommQualifier>
+							<CommPhone>+1-990-8888668</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>HF</CommQualifier>
+							<CommPhone>+1-990-8888669</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WF</CommQualifier>
+							<CommPhone>+1-990-8888670</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>BN</CommQualifier>
+							<CommPhone>+1-990-8888671</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>VM</CommQualifier>
+							<CommPhone>+1-990-8888672</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>EM</CommQualifier>
+							<CommEmail>Monty.Carlo@chevy.com</CommEmail>
+						</Communications>
+					</PersonInfo>
+				</Party>
+				<Affiliation>IN</Affiliation>
+			</Adjuster>
+			<Submitter>
+				<Party>
+					<PersonInfo>
+						<PersonName>
+							<FirstName>Submitter FN Donthi</FirstName>
+							<LastName>Submitter LN</LastName>
+						</PersonName>
+						<IDInfo>
+							<IDQualifierCode>UserID</IDQualifierCode>
+							<IDNum>36284949</IDNum>
+						</IDInfo>
+					</PersonInfo>
+				</Party>
+			</Submitter>
+			<OtherParty>
+				<Party>
+					<OrgInfo>
+						<CompanyName>AltInsImrmit1</CompanyName>
+						<Communications>
+							<CommQualifier>AL</CommQualifier>
+							<Address>
+								<Address1>30 Squire Place</Address1>
+								<Address2>Bedford Commons</Address2>
+								<City>Bedford</City>
+								<StateProvince>OH</StateProvince>
+								<PostalCode>44146</PostalCode>
+								<CountryCode>US</CountryCode>
+							</Address>
+						</Communications>
+					</OrgInfo>
+					<ContactInfo>
+						<Communications>
+							<CommQualifier>HP</CommQualifier>
+							<CommPhone>+1-990-8888661</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>TE</CommQualifier>
+							<CommPhone>+1-990-8888662</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>CP</CommQualifier>
+							<CommPhone>+1-990-8888663</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>PC</CommQualifier>
+							<CommPhone>+1-990-8888664</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WP</CommQualifier>
+							<CommPhone>+1-990-8888665</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WC</CommQualifier>
+							<CommPhone>+1-990-8888666</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>NP</CommQualifier>
+							<CommPhone>+1-990-8888667</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>FX</CommQualifier>
+							<CommPhone>+1-990-8888668</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>HF</CommQualifier>
+							<CommPhone>+1-990-8888669</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>WF</CommQualifier>
+							<CommPhone>+1-990-8888670</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>BN</CommQualifier>
+							<CommPhone>+1-990-8888671</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>VM</CommQualifier>
+							<CommPhone>+1-990-8888672</CommPhone>
+						</Communications>
+						<Communications>
+							<CommQualifier>EM</CommQualifier>
+							<CommEmail>Bedford@OhioDivisionofTravelandTourism.com</CommEmail>
+						</Communications>
+					</ContactInfo>
+				</Party>
+				<AdminType>CMP</AdminType>
+			</OtherParty>
+		</AdminInfo>
+		<ClaimInfo>
+			<ClaimNum>L43490198-01</ClaimNum>
+			<ClaimSensitivityInd>N</ClaimSensitivityInd>
+			<ClaimStatus>Open</ClaimStatus>
+			<PolicyInfo>
+				<!--<PolicyNum> </PolicyNum>-->
+				<PolicyType>OT</PolicyType>
+				<!--<PolicyStateProvince></PolicyStateProvince>-->
+				<PolicyEffectiveDateTime>2011-05-20T01:16:25.667-00:00</PolicyEffectiveDateTime>
+				<PolicyExpirationDateTime>2011-05-20T01:16:25.667-00:00</PolicyExpirationDateTime>
+				<CoverageInfo>
+					<Coverage>
+						<CoverageCategory>C</CoverageCategory>
+						<CoverageCode>ADDA</CoverageCode>
+						<StatedAmount>4547.70</StatedAmount>
+						<CoverageLimits>
+							<PerPersonLimit>100</PerPersonLimit>
+							<PerOccurrenceLimit>200</PerOccurrenceLimit>
+							<PerDayRentalLimit>100</PerDayRentalLimit>
+						</CoverageLimits>
+						<DeductibleInfo>
+							<DeductibleStatus>D2</DeductibleStatus>
+							<DeductibleAmt>300.33</DeductibleAmt>
+							<DeductibleBasedOnPercentageMethod>
+								<!--025 PORCENTAJE FRANQUICIA-->
+								<DeductiblePercentageOfRepairs>20</DeductiblePercentageOfRepairs>
+								<!--024 - FRANQUICIA MINIMA-->
+								<DeductibleMinAmt>300</DeductibleMinAmt>
+							</DeductibleBasedOnPercentageMethod>
+						</DeductibleInfo>
+					</Coverage>
+				</CoverageInfo>
+			</PolicyInfo>
+			  <LossInfo>
+				<Facts>
+					<LossDateTime>2011-05-20T01:16:25.667-00:00</LossDateTime>
+					<ReportedDateTime>2011-05-20T01:00:25.667-00:00</ReportedDateTime>
+			  <CauseOfLoss>EQK</CauseOfLoss> 
+					<LossDesc>sssss</LossDesc>
+					<CatInd>false</CatInd>
+					<CatNum>ss</CatNum>
+					<InjuryInd>Y</InjuryInd>
+					<PrimaryPOI>
+						<POICode>11</POICode>
+					</PrimaryPOI>
+					<SecondaryPOI>
+						<POICode>12</POICode>
+					</SecondaryPOI>
+					<DamageMemo>Damage_memo Add 555</DamageMemo>
+					<LossMemo>That's a fact. You could look it up. Even if it was more lengthy than eighty characters.</LossMemo>
+					<LossLocationAddress>
+						<Address1>sss</Address1>
+						<Address2>aaa</Address2>
+						<City>sss</City>
+						<StateProvince>AB</StateProvince>
+						<PostalCode>92117</PostalCode>
+						<CountryCode>US</CountryCode>
+					</LossLocationAddress>
+					<LossLocationDesc>ssss</LossLocationDesc>
+					<LiabilityPct>10.01</LiabilityPct>
+				</Facts>
+				<TotalLossInd>U</TotalLossInd>
+			</LossInfo>
+			<!--<AdditionalIDInfo>
+				<IDQualifierCode>EvaluationID</IDQualifierCode>
+				<IDNum>PE092313001</IDNum>
+			</AdditionalIDInfo>-->
+			<AdditionalIDInfo>
+<IDQualifierCode>LiabilityAcceptedInd</IDQualifierCode>
+<IDNum>Y</IDNum>
+</AdditionalIDInfo>
+<!--031 TIPO DE CONDICIONADO-->
+<AdditionalIDInfo>
+<!--  <IDQualifierCode>PolicyCondition</IDQualifierCode>
+<IDNum>87</IDNum>-->
+</AdditionalIDInfo>
+<!--033 TIPO CLIENTE-->
+<AdditionalIDInfo>
+<IDQualifierCode>Customer Type</IDQualifierCode>
+<IDNum>12</IDNum>
+</AdditionalIDInfo>
+<!--037 IND_POS_FRAUDE-->
+<AdditionalIDInfo>
+<IDQualifierCode>FraudulentClaimInd</IDQualifierCode>
+<IDNum>Y</IDNum>
+</AdditionalIDInfo>
+<!--068 TIPO DE CONVENIO-->
+<AdditionalIDInfo>
+<!--  <IDQualifierCode>AgreementType</IDQualifierCode>
+<IDNum>C</IDNum>
+<IDNum>CICE</IDNum>-->
+</AdditionalIDInfo>
+<!--089 POLICIA-->
+<AdditionalIDInfo>
+<IDQualifierCode>PoliceInd</IDQualifierCode>
+<IDNum>Y</IDNum>
+</AdditionalIDInfo>
+<!--089 POLICIA-->
+<AdditionalIDInfo>
+<IDQualifierCode>TowInd</IDQualifierCode>
+<IDNum>Y</IDNum>
+</AdditionalIDInfo>
+
+			<ClaimMemo>Test 9848092645.</ClaimMemo>
+		</ClaimInfo>
+		<!--	<PropertyInfo>
+			<PropertyType>Other</PropertyType>
+			<PropertyAddress>
+				<Address1>9970 Carroll Canyon Rd.</Address1>
+				<Address2>State Street</Address2>
+				<City>San diego</City>				
+				<StateProvince>CA</StateProvince>
+				<PostalCode>92117</PostalCode>
+				<CountryCode>US</CountryCode>				
+			</PropertyAddress>
+			<PropertyDescription>02 PATRI HOME</PropertyDescription>
+		</PropertyInfo>-->
+		<VehicleInfo>
+						<VINInfo>
+				<VIN>
+					<VINNum>5UXZV8C56BL420747</VINNum>
+				</VIN>
+			</VINInfo>
+			<License>
+			
+				<LicensePlateNum>87654123AB</LicensePlateNum>
+				<LicensePlateStateProvince>CA</LicensePlateStateProvince>
+				<LicensePlateRegistrationDate>2011-12-11</LicensePlateRegistrationDate>
+				<LicensePlateExpirationDate>2012-12</LicensePlateExpirationDate>
+				<LicenseCountryCode>US</LicenseCountryCode>
+				
+			</License>
+			<VehicleDesc>
+				<ProductionDate>1988-12</ProductionDate>
+				<ModelYear>2003</ModelYear>
+				<MakeDesc>Hondi</MakeDesc>
+				<ModelName>Civic</ModelName>
+				<SubModelDesc>DX</SubModelDesc>
+				<VehicleType>PC</VehicleType>
+				<OdometerInfo>
+					<OdometerInd>true</OdometerInd>
+					<OdometerReading>50000</OdometerReading>
+					<OdometerReadingCode>Not Actual</OdometerReadingCode>
+				</OdometerInfo>
+				<!--<VehicleOptions>
+				<Option>
+				<OptionCode>WIN</OptionCode>
+				<OptionDesc>15</OptionDesc>
+				</Option>
+				</VehicleOptions>-->
+			</VehicleDesc>
+			<Paint>
+				<Exterior>
+					<Color>
+						<ColorName>Blue</ColorName>
+					</Color>
+				</Exterior>
+				<Interior>
+					<Color>
+						<ColorName>Red</ColorName>
+					</Color>
+				</Interior>
+			</Paint>
+			<Body>
+				<BodyStyle>Body Style 1</BodyStyle>
+			</Body>
+			<Powertrain>
+				<EngineDesc>Engine Desc test 1</EngineDesc>
+				<TransmissionInfo>
+					<TransmissionCode>8SP</TransmissionCode>
+					<TransmissionDesc>6 Speed Man Trans</TransmissionDesc>
+				</TransmissionInfo>
+				<Configuration>Power train test 1</Configuration>
+			</Powertrain>
+			<Condition>
+				<DrivableInd>N</DrivableInd>
+				<PriorDamageInd>U</PriorDamageInd>
+			</Condition>
+			<VehicleMemo>This is a Test Vehicle Memo</VehicleMemo>
+		</VehicleInfo>
+	</AddsChgs>
+</ClaimSaveRq>

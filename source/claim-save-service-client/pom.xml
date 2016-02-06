@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>claim-save-service</groupId>
+		<artifactId>claim-save-service-source</artifactId>
+		<version>1.0.0.0</version>
+		<relativePath>..</relativePath>
+	</parent>
+
+	<groupId>claim-save-service</groupId>
+	<artifactId>claim-save-service-client</artifactId>
+	<name>claim Save Service Client</name>
+	<description>Claim Save Service Client</description>
+	<version>1.0.0.0</version>
+	<packaging>jar</packaging>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>unpack</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>unpack</goal>
+						</goals>
+						<configuration>
+							<artifactItems>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>claim-save-service-orchestrator</artifactId>
+									<version>1.0.0.0</version>
+									<outputDirectory>${project.build.directory}/classes</outputDirectory>
+									<includes>
+						com/mitchell/services/claimsaveservice/orchestrator/client/ClaimSaveOrchestratorClient.class,
+						com/mitchell/services/claimsaveservice/orchestrator/ejb/ClaimSaveOrchestrator.class,
+						com/mitchell/services/claimsaveservice/orchestrator/ejb/ClaimSaveOrchestratorHome.class,
+						com/mitchell/services/claimsaveservice/orchestrator/Constant.class,
+						com/mitchell/services/claimsave/common/Constants.class,
+						com/mitchell/services/claimsaveservice/ClaimSaveException.class
+									</includes>
+								</artifactItem>           
+
+							</artifactItems>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>${maven-site-plugin.version}</version>
+				<configuration>
+					<skip>true</skip>
+					<skipDeploy>true</skipDeploy>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+</project>
