@@ -26,7 +26,7 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>junit</groupId>
+			<groupId>junitJre</groupId>
 			<artifactId>junit</artifactId>
 		</dependency>
 		<dependency>
