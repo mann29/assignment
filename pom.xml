@@ -12,7 +12,7 @@
 	<version>1.0.0.0</version>
 	<packaging>pom</packaging>
 	<name>Claim Save Service</name>
-	<description>Claim Save Service has 4 modules - jws, handler and service</description>
+	<description>Claim Save Service has 5 modules - jws, handler and service</description>
 
 	<developers>
 		<developer>
