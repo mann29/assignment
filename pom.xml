@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.mitchell.maven.apd</groupId>
 		<artifactId>super-pom</artifactId>
-		<version>1.0.0.0</version>
+		<version>1.0.0.0.1</version>
 		<relativePath>..</relativePath>
 	</parent>
 
