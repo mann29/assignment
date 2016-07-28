@@ -23,7 +23,7 @@
 
 	<distributionManagement>
 		<site>
-			<id>www.mitchell.com</id>
+			<id>www.mitchell.com.1</id>
 			<url>scp://http://mavensite.mitchell.com/docs/claim-save-service</url>
 		</site>
 	</distributionManagement>
